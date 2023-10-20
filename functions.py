@@ -23,9 +23,6 @@ def generate_fibonacci(n):
         a, b = b, a + b
 
 
-N = eval(input("Enter the value of N: "))
-generate_fibonacci(N)
-
 def check_prime(n):
     """Check if a number is prime."""
     if n <= 1:
