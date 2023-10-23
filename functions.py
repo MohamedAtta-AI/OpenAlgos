@@ -39,5 +39,5 @@ def check_prime(n):
     return True
 
 
-def reverse_string(w):
-    return w[::-1]
+def reverse_string(txt):
+    return txt[::-1]
