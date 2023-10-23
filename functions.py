@@ -37,3 +37,7 @@ def check_prime(n):
             return False
         i += 6
     return True
+
+
+def reverse_string(txt):
+    return txt[::-1]
