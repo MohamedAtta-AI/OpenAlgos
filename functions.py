@@ -41,3 +41,21 @@ def check_prime(n):
 
 def reverse_string(txt):
     return txt[::-1]
+
+
+def count_vowels(input_string):
+
+    '''
+    Author:
+    Mostafa Samer Dorrah
+    '''
+    input_string.lower()
+    
+    vowels = "aeiou" 
+    count = 0
+    
+    for i in input_string:
+        if i in vowels:
+            count += 1
+            
+    return count
