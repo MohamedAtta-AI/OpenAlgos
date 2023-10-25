@@ -44,7 +44,6 @@ def reverse_string(txt):
 
 
 def count_vowels(input_string):
-
     '''
     Author:
     Mostafa Samer Dorrah
@@ -60,18 +59,20 @@ def count_vowels(input_string):
             
     return count
 
+  
 def calculate_average(nums):
     return sum(nums) / len(nums)
 
+
+def calculate_sum(numbers):
     '''
     Author:
     Nourhan Mohamed
     '''
-def calculate_sum(numbers):
     total = sum(numbers)
     return total
 
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-result = calculate_sum(numbers)
-print("The sum is:", result)
+
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
