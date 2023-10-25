@@ -62,3 +62,14 @@ def count_vowels(input_string):
 
 def calculate_average(nums):
     return sum(nums) / len(nums)
+
+   
+def count_words(sentence):
+   
+    words = sentence.split()
+    
+    return len(words)
+
+input_sentence = "This is a sample sentence with some words."
+word_count = count_words(input_sentence)
+print("Number of words:", word_count)
