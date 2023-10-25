@@ -76,3 +76,10 @@ def calculate_sum(numbers):
 def count_words(sentence):
     words = sentence.split()
     return len(words)
+
+def GCD (a,b):
+    while b :
+        a,b = b,a%b
+        return a
+        
+    
