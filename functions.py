@@ -62,3 +62,16 @@ def count_vowels(input_string):
 
 def calculate_average(nums):
     return sum(nums) / len(nums)
+
+    '''
+    Author:
+    Nourhan Mohamed
+    '''
+def calculate_sum(numbers):
+    total = sum(numbers)
+    return total
+
+# Example usage
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+print("The sum is:", result)
