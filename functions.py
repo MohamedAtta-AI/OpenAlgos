@@ -59,3 +59,6 @@ def count_vowels(input_string):
             count += 1
             
     return count
+
+def calculate_average(nums):
+    return sum(nums) / len(nums)
